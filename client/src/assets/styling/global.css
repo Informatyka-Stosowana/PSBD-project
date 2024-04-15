@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    transition: background-color 0.3s;
+}
+
+.link-el {
+    display: block;
+    margin: 2vh;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.link-el:hover {
+    color: #BB86FC;
+}
+
+.link-el:active {
+    color: rgba(187, 134, 252, 0.6);
+}
+
+.custom-button {
+    min-width: 4vw;;
+    width: 8vw;
+    border-radius: 5px;
+    border: none;
+}
+
+.custom-button:active {
+    box-shadow: 0px 0px 6px 2px rgba(55, 0, 179, 0.6);
+}
